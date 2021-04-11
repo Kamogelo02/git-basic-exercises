@@ -1,0 +1,87 @@
+    1  mkdir git-basic-exercises
+    2  cd git-basic-exercises
+    3  ls -a
+    4  ls
+    5  ls -a
+    6  git-init
+    7  git init
+    8  ls -a
+    9  git status
+   10  touch README.md
+   11  ls -a
+   12  git status
+   13  git log
+   14  git add README.md
+   15  git status
+   16  git rm --cached README.md
+   17  git status
+   18  git add README.md
+   19  git status
+   20  git commit -m "initial commit"
+   21  git config --global user.email "kamogelomaepa02@gmail.com"
+   22  git config --global user.name "Kamogelo Maepa"
+   23  git commit -m "initial commit"
+   24  git log
+   25  nano README.md
+   26  cat README.md
+   27  git stats
+   28  git status
+   29  git commit -a
+   30  git add
+   31  git add README.md
+   32  git commit -a
+   33  git commit -m "second commit"
+   34  git add README.md
+   35  git commit -m "second commit"
+   36  git status
+   37  git add README.md
+   38  git status
+   39  cat README.md
+   40  git log
+   41  git reset --soft HEAD~1
+   42  git log
+   43  git add README.md
+   44  git status
+   45  git commit -m "second commit"
+   46  git add README.md
+   47  git commit -m "third commit"
+   48  git add README.md
+   49  git status
+   50  git log
+   51  git branch -u origin/master
+   52  git add README.md
+   53  git status
+   54  git config --get remote.origin.url
+   55  git status
+   56  git add README.md
+   57  git status
+   58  git log
+   59  q
+   60  git log
+   61  q
+   62  git checkout 8f8ab3a026ea68d3a20a9199bad69b80776b5f50
+   63  cat README.md
+   64  git checkout main
+   65  git checkout master
+   66  cat README.md
+   67  git branch
+   68  git -b milkshake-flavours
+   69  git checkout -b milkshake-flavours
+   70  git branch
+   71  git checkout -b milkshake-flavours
+   72  git branch
+   73  nano milkshakes.md
+   74  cat milkshakes.md
+   75  git status
+   76  git add milkshake.md
+   77  git add milkshakes.md
+   78  git commit -m "added initial flavours"
+   79  git log
+   80  git checkout -b master
+   81  git checkout master
+   82  git status
+   83  git log
+   84  git checkout -b history
+   85  git log
+   86  git branch
+   87  history > history.txt
